@@ -1,0 +1,183 @@
+/*Top nav*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: left;
+    border-right: 1.5px solid rgb(143, 143, 143);
+
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover  {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/*Home*/
+.banner {
+    width: fit-content;
+    height: 100vh;
+    z-index: -1;
+}
+.scroll {margin: 0; height: 100%; overflow: hidden}
+body{margin: 0; height: 100%; overflow-x: hidden}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.homecontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/*about*/
+
+
+.aboutcontent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/*contact*/
+
+.contactcontent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pcontact {
+    margin-top: 10vh;
+}
+
+.contact {
+    width: 40px;
+    height: px;
+}
+
+/*pcskills*/
+
+.pccontent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/*projecten*/
+
+.bannerproject {
+    width: fit-content;
+    height: fit-content;
+
+}
+.projectcontent {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.project1 {
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    
+    transform: translate(-50%, -50%)
+}
+
+.project2 {
+    position: absolute;
+    top: 210vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.download {
+    color: white;
+    text-decoration: none;
+}
+
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+    height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+
+/*@media css*/
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    z-index: 1;
+    
+    
+}
